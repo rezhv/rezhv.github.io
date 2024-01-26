@@ -27,6 +27,13 @@ a.btncv {
   white-space: nowrap;
 }
 
+.col-md-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  padding-left: 0;
+  max-width: 16.666667%;
+}
+
 a.btncv:hover {
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
@@ -100,6 +107,7 @@ div.list-groups {
   flex-direction: row;
   align-content: center;
 }
+
 
 div.list-group {
   display: flex;
