@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Farsi Colloquial Dataset
+description: A large text corpus consisting of social media posts scraped online.
 img: assets/img/12.jpg
 importance: 1
 category: work
