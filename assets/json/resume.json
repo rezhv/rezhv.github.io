@@ -6,7 +6,7 @@
     "email": "al.havaei@icloud.com",
     "phone": "(650) 720-8293",
     "url": "",
-    "summary": "A skilled Machine Learning Engineer and Economist with strong foundations in computer science and economics, pursuing innovative projects in the field of AI and machine learning.",
+    "summary": "Recent gruaduate specialized in Machine Learning Engineering/Research and quantitative data analysis.",
     "location": {
       "address": "",
       "postalCode": "CA 94086",
@@ -17,15 +17,7 @@
     "profiles": []
   },
   "work": [
-    {
-      "name": "PlaygroundRL",
-      "position": "Founding Machine Learning Engineer",
-      "url": "",
-      "startDate": "2024-01-01",
-      "endDate": "",
-      "summary": "Building the core product using NLP techniques at PlaygroundRL, a startup specializing in evaluating the performance and safety of LLMs.",
-      "highlights": []
-    },
+
     {
       "name": "Jane Street Capital",
       "position": "Quantitative Trading Intern",
@@ -79,6 +71,48 @@
       "endDate": "2021-04-01",
       "summary": "Fine-tuned segmentation model for dental imaging.",
       "highlights": ["Achieved >95% test pixel accuracy"]
+    }
+  ],
+  "research": [
+    {
+        "name": "Independent Project: Spoken Farsi Text Dataset",
+        "position": "",
+        "institution": "Independent",
+        "url": "",
+        "startDate": "2023-09-01",
+        "endDate": "2023-12-01",
+        "summary": "Curated the largest colloquial Farsi text dataset scraped from social media platforms Telegram and Twitter amassing 150 GB. Wrote a Python program that explores social media public channels, validates the language, and scrapes relevant documents. Cleaned the data by removing usernames, email addresses, and advertising posts.",
+        "highlights": []
+    },
+    {
+        "name": "Farsi Roberta for Toxicity Detection",
+        "institution": "University of Southern California ISI",
+        "position": "Researcher",
+        "url": "",
+        "startDate": "2022-01-01",
+        "endDate": "2022-06-01",
+        "summary": "Benchmarked the performance of various subword, word, and sentence tokenizers on Farsi according to their compression factor. Designed a morphological parser that normalizes Farsi text to handle unclear word boundaries, resulting in 10% F-scores improvement in Farsi classification tasks. Trained a toxicity detection model on my model, PersianRoberta. Achieved model F-scores of 97% for offensive language and 91% for toxicity, surpassing state-of-the-art models. Deployed toxicity detection model on farsiai.com and Balatarin, a Farsi social media website.",
+        "highlights": ["Mentored by Dr. Mehdi Yahyanejad and Dr. Lucas Dixon"]
+    },
+    {
+        "name": "Independent Project: Roberta LLM for Farsi",
+        "institution": "Independent",
+        "position": "",
+        "url": "",
+        "startDate": "2021-06-01",
+        "endDate": "2021-12-01",
+        "summary": "Cleaned, normalized, and segmented over 50GB of scraped Farsi text by pre-tokenizing special characters, detecting and removing non-Farsi text, cleaning punctuation, and more. Labeled scraped tweets for offensive language detection. Built custom Roberta LLM in TF2.0 with graph execution support and trained on GCP TPUs for 22 days (10 M iterations).",
+        "highlights": []
+    },
+    {
+        "name": "Machine Learning Research Assistant",
+        "position": "Research Assistant",
+        "institution": "UC Davis Prof. Shafiq Lab",
+        "url": "",
+        "startDate": "2021-04-01",
+        "endDate": "2021-08-01",
+        "summary": "Wrote generalized end-to-end pipeline in PyTorch to fine-tune LLMs for political ideology and hate speech classification using 10K+ social media posts, including preprocessing and tokenization pipeline for scraped data. Achieved F-scores of 92% on ideology classification and 83% on offensive language detection through experimentation with BERT and XLMR, surpassing state-of-the-art results.",
+        "highlights": ["Supervised by Prof. Zubair Shafiq"]
     }
   ],
   "education": [
@@ -171,6 +205,11 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Farsi",
+      "fluency": "Fluent",
+      "icon": ""
     }
   ],
   "interests": [
@@ -192,15 +231,9 @@
       "awarder": "",
       "url": "",
       "summary": "Advanced to the final round of the 2015 Iranian National Olympiad of Informatics, as a freshman."
-    },
-    {
-      "title": "Cohere for AI Research Apprenticeship Candidate",
-      "date": "",
-      "awarder": "Cohere",
-      "url": "",
-      "summary": "Advanced to the last 50 candidates for Cohere for AI research apprenticeship with acceptance rate of 0.5%."
     }
   ],
+
   "projects": [],
   "volunteer": [],
   "publications": [],
